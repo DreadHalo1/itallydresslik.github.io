@@ -1,0 +1,123 @@
+.container{
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0 auto;
+}
+.img{
+  width: 65px;
+  height: 65px;
+}
+.border{
+  border-radius: 50%;
+  display: inline-block;
+}
+.center{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.main-text{
+  color: #ffa94d !important;
+  font-size: 1.5em;
+
+}
+.body{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  font-family: Roboto,Helvetica,Arial;
+
+}
+html{
+    background-color: #fff4e6;
+}
+.block-item{
+background: #ffa94d;
+--color-text: #ffffff;
+color: #000;
+radius: 3px;
+border-color: #ffa94d;
+border-radius: 3px;
+border-width: 0px;
+color-text-subtitle: #ffffff;
+saturate: 100%;
+blur: 0px;
+border-width: 2px;
+--link-border-color: transparent;
+border-radius: 2px;
+bg: #fff;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+}
+.block-link{
+padding: 6px;
+flex-grow: 1;
+display: flex;
+flex-direction: column;
+color: #ffa94d !important;
+}
+.btn-link-title{
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+color: var(--color-text);
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.btn-link-title a{
+  text-decoration: none;
+  justify-content: center;
+
+
+}
+.btn-link{
+    background-color: var(--link-background);
+    text-decoration: none!important;
+    font-size: 1.15rem;
+    border-width: var(--link-border-width);
+    border-color: var(--link-border-color);
+    border-style: solid;
+    color: var(--color-text);
+    border-radius: var(--link-border-radius);
+    position: relative;
+    height: auto!important;
+    line-height: 1.2;
+    white-space: normal;
+    min-height: 60px;
+    padding: 10px;
+    display: flex!important;
+    flex-direction: row;
+    backdrop-filter: saturate(var(--link-saturate)) blur(var(--link-blur));
+}
+.top{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.btn-link-subtitle{
+  opacity: .7;
+    font-size: 90%;
+    margin-top: 0.2rem;
+    color: var(--color-text-subtitle);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .btn-link{
+    padding: 15px;
+    font-size: 1rem;
+  }
+  .main-text{
+    font-size: 1rem;
+  }
+  .img{
+    width: 70px;
+    height: 70px;
+  }
+}
